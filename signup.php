@@ -15,8 +15,6 @@ if(isset($_POST['sign']))
     $result= mysqli_query($connection, $sql);
     $num=mysqli_num_rows($result);
     if($num==1){
-
-        echo "<h1><center>Account already exists</center></h1>";
     }
     else{
     
@@ -24,13 +22,9 @@ if(isset($_POST['sign']))
     $query_run= mysqli_query($connection, $query);
     if($query_run)
     {
-      
-       
-        header("location:signin.php");
-       
+        header("location:signin.php");       
     }
     else{
-        echo '<script type="text/javascript">alert("data not saved")</script>';
         
     }
 }
