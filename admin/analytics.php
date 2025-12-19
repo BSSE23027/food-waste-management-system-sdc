@@ -29,7 +29,8 @@ if($_SESSION['name']==''){
     
 <?php
 
-
+ $connection=mysqli_connect($host, $user, $password);
+ $db=mysqli_select_db($connection, $database);
 
 ?>
 </head>
