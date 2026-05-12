@@ -1,57 +1,68 @@
-# Food waste management system
-<!-- <img src="img/coverimage.jpeg"> -->
-<p>  The basic concept of this project  Food Waste Management is to collect theexcess/leftover food from donors such as hotels, restaurants, marriage halls, etc and distribute to  the  needy people .</p>
-<h2>Tools and Technologies</h2> 
-<ul>
- <li>Frontend : HTML, CSS,  JavaScript</li>
- <li>Backend  : php</li>
- <li>webserver: xampp server</li>
- <li>Database: MySQL </li>
-</ul>
+# Food Waste Management System
 
- <h2>The system has three modules. </h2>
-    <ul><li>User</li>
-    <li>Admin</li>
-    <li>Delivery</li></ul>
-   <br>
-    <p>The User module is designed for people who wish to donate their excess or leftover food to help reduce food wastage.The User module is responsible for accepting food donations from users who have excess food, such as marriage halls, restaurants, or individuals.The module provides users with the ability to register, login, and donate food. Users can select the type and quantity of food they want to donate, and the system will match their donation with the nearest needy people or organizations.The module also allows users to view their donations.The User module provides the information to the Admin module for further processing.
-   </p><br>
-   <p>
-      The Administrator module is for trusts, NGOs, and charities that are registered on the platform. The Admin module is designed for system administrators who manage the food distribution process. The Admin module receives information about the food donation from the User module and lists it for NGOs and charities to choose from.Admins can view and manage the list of donations received, including the type and quantity of food donated. NGOs and charities can select the food donation they need from the Admin module and request a pickup to the Delivery module.The Admin module is responsible for tracking the requests and keeping track of which organizations have taken which donations
-   </p><br>
-    <p>The Delivery Person module is for individuals who wish to participate in the food donation process by providing pickup and delivery services. Delivery personnel can register themselves on the platform .The Delivery Person module provides pickup and drop-off services for NGOs and charities who have requested a food donation.The Delivery Person module shows the pickup location and drop location of the food donation.
-    </p><br>
-    <p>Overall, the Food Waste Management System is designed to efficiently manage excess food and ensure that it is distributed to those in need. The User module accepts food donations, the Admin module lists them for NGOs and charities to choose from, and the Delivery Person module provides pickup and drop-off services. This system benefits the community by reducing food waste and helping those in need
-    </p>
-    <h3>User </h3>
-   <!-- <img src="img/User-module.jpg"> -->
-    <img src="img/mobile.jpg">
-    <h3>Admin </h3>
-    <img src="img/Admin.jpg">
-     <h3>Delivery </h3>
-    <img src="img/Delivery_module.jpg">
-    <h3>features:</h3>
-    <ul><li>Mobile Screen friendly website.</li>
-      <li>chatbot support</li>
-      <li>Secure Login</li>
-      </ul>
-      <h2>Mobile Screen friendly website.</h2>
-      <img src="img/responsive.gif">
-      <h2>chatbot support</h2>
-      <img src="img/chatbotsupport.jpg">
-      <h2>Secure Login</h2>
-      <img src="img/hash-flow.png">
-      <h2>How to run</h2>
-      <ol>
-       <li>Download the project zip file</li>
-       <li> Extract the file and copy the folder</li>
-       <li>Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/Html)</li>
-       <li> Open PHPMyAdmin (http://localhost/phpmyadmin)</li>
-       <li> Create a database</li>
-       <li>Import demo.sql file(inside database folder)</li>
-       <li> Run the script http://localhost/folderName </li> </ol>
+## Overview
 
-<h2>view project :</h2>
+The Food Waste Management System is a web-based platform designed to connect food donors with organizations in need. The system collects excess or leftover food from restaurants, hotels, marriage halls, and other food-producing entities, and distributes it to needy individuals and organizations. This initiative helps reduce food waste while supporting those in need.
 
-<a href="https://kishor-23.github.io/food-donate/index.html" > view demo</a>
+## Tech Stack
 
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Web Server:** XAMPP Server
+- **Database:** MySQL
+
+## System Modules
+
+The system consists of three main modules:
+
+### User Module
+
+The User module enables individuals and organizations to donate excess food. Key features include:
+
+- Registration and secure login
+- Food donation submission with type and quantity details
+- Automatic matching with nearby recipients
+- Donation history and tracking
+- Direct communication with the Admin module for request processing
+
+### Admin Module
+
+The Admin module manages the overall food distribution process for registered NGOs, charities, and trusts. Responsibilities include:
+
+- Receiving and listing all food donations
+- Matching donations with organization requests
+- Managing pickup and delivery requests
+- Tracking donation status and organization assignments
+- Coordinating with the Delivery module for logistics
+
+### Delivery Module
+
+The Delivery module facilitates pickup and drop-off services. Features include:
+
+- Delivery personnel registration and management
+- Assigned pickup locations and drop-off destinations
+- Real-time tracking of donation deliveries
+- Service management for NGOs and charitable organizations
+
+## Key Features
+
+- **Responsive Design:** Fully optimized for mobile and desktop screens
+- **Chatbot Support:** Intelligent chatbot assistance for user queries
+- **Secure Authentication:** Hash-based password encryption for user security
+
+## Installation Instructions
+
+1. Download the project repository
+2. Extract the downloaded file
+3. Copy the folder to your web server root directory:
+   - XAMPP: `xampp/htdocs`
+   - WAMP: `wamp/www`
+   - LAMP: `/var/www/html`
+4. Open PHPMyAdmin at `http://localhost/phpmyadmin`
+5. Create a new database
+6. Import the `demo.sql` file located in the `database` folder
+7. Access the application at `http://localhost/folderName`
+
+## Demo
+
+View the live demo: [Food Donate Demo](https://kishor-23.github.io/food-donate/index.html)
